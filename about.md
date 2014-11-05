@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi! I'm Alice.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I started this blog to document my experience at Hacker School. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alice@explique.me](mailto:alice@explique.me)
