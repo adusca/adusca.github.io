@@ -13,3 +13,4 @@ I started this blog to share my experiences at Hacker School.
 ### Contact me
 
 [alice@explique.me](mailto:alice@explique.me)
+[CV](https://github.com/adusca/adusca.github.io/raw/master/cv-english.pdf)
