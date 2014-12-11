@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Alice. I studied Mathematics in college. I was doing a Master's degree in Mathematical Economics before geting serious about programming. I'm interested in learning more about almost everything. "Explique-me" is portuguese for "Explain to me".
+Hi! I'm Alice. I studied Mathematics in college. I was doing a Master's degree in Mathematical Economics before getting serious about programming. I'm interested in learning more about almost everything. "Explique-me" is portuguese for "Explain to me".
 
 ### More Information
 
