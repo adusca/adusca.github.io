@@ -10,6 +10,7 @@ It's Winter break now at Hacker School, but the week was quite productive. I wor
 My first project of the week was a [ray-tracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29). I started creating classes for lines, spheres and vectors in a [geometry.py](https://github.com/adusca/ray-tracer/blob/master/geometry.py) file. After a day of work I was able to generate a black dot in a blank screen. Then I added a horizontal plane, a light font, shadows and reflections. I used [these slides](http://fileadmin.cs.lth.se/cs/Education/EDAN30/lectures/S1-rt.pdf) to guide me when I got confused. Now my program is able to generate images like:
 
 ![Ray-tracer](/images/rays.png "Final result")
+![Ray-tracer](/images/rays2.png "Final result")
 
 ### My first Mozilla bug
 
