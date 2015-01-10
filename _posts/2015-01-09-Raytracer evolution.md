@@ -17,9 +17,9 @@ Then I tried adding a Horizontal plane:
 
 ![Ray-tracer](/images/rays3.png "Horizontal Plane")
 
-Making it checked:
+Making it checkered:
 
-![Ray-tracer](/images/rays4.png "Checked Horizontal Plane")
+![Ray-tracer](/images/rays4.png "Checkered Horizontal Plane")
 
 But it was in the wrong place:
 
