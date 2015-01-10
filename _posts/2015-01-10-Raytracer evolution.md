@@ -50,4 +50,4 @@ Next step was adding reflections, it was easier then shadows:
 
 And finally:
 
-![Ray-tracer](/images/rays12.png "Final Result")
+![Ray-tracer](/images/rays14.png "Final Result")
