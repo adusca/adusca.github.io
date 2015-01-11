@@ -5,11 +5,11 @@ title: Ray-tracer evolution
 
 In the last post I showed my finished ray-tracer. Now I'm going to show the steps I took to get there.
 
-I started creating Lines and Spheres in a geometry.py and generating an PNG image with [PIL](http://effbot.org/imagingbook/pil-index.htm) in render.py. The first image I was able to generate was:
+I started creating Lines and Spheres in a [geometry.py](https://github.com/adusca/ray-tracer/blob/8e27e37f42a52575b316249489bce484aaaa800b/geometry.py) and generating an PNG image with [PIL](http://effbot.org/imagingbook/pil-index.htm) in [render.py](https://github.com/adusca/ray-tracer/blob/8e27e37f42a52575b316249489bce484aaaa800b/render.py). The first image I was able to generate was:
 
 ![Ray-tracer](/images/rays1.png "First Image")
 
-Adding colors and an extra sphere was easy:
+Adding colors and an extra sphere was [easy](https://github.com/adusca/ray-tracer/commit/a9c55cf147658903a5a3e112d378cb5625e5e68e):
 
 ![Ray-tracer](/images/rays2.png "Colors")
 
