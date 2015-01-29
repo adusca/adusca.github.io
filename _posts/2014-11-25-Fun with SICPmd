@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 6
+title: Fun with SICP
 ---
 
 For the past week I've been working my way through SICP. I'm using [DrRacket](http://docs.racket-lang.org/drracket/) to test my code and after suffering for a little bit to find the right implementation of Scheme, I found out that it has a [SICP mode](http://www.neilvandyke.org/racket-sicp/), all I needed to do was start my file with the line:
