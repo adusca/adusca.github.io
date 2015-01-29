@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 2
+title: The start of Hacker School
 ---
 This is my second day at Hacker School. Yesterday I spent my day installing Ubuntu, setting up Emacs Prelude and learning more about Git. My plan for today was to start working my way through Structure and Interpretation of Computer Programs. Before I started I though "Maybe I should use the [Pomodoro Technique](http://en.wikipedia.org/wiki/Pomodoro_Technique) to be more productive" followed by "I should make my own Pomodoro timer". So before starting SICP I made my own Pomodoro timer in Python.
 
