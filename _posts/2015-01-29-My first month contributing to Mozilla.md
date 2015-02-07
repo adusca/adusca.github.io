@@ -25,11 +25,11 @@ After that I looked for another MDN bug to work on and found [bug 1116419](https
 
 I knew that there was a function somewhere in the code to generate the link, and I guessed that the string 'bugzilla.mozilla.org' would show up somewhere in the function, so I tried:
 
-```
+```bash
 grep -R bugzilla.mozilla.org *
 ```
 
-And looking at the results I could identify the right file and from there the right function. From there all I had to do was learn regex basics and I could submit a [PR](https://github.com/mozilla/kuma/pull/2982). I also added test for that one.
+And looking at the results I could identify the right file and from there the right function. From there all I had to do was learn regex basics and I could submit a [PR](https://github.com/mozilla/kuma/pull/2982). Once more I was asked to add tests and this time it was way easier.
 
 #### Auto-tools
 
