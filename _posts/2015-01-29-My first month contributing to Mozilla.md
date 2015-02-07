@@ -25,7 +25,7 @@ After that I looked for another MDN bug to work on and found [bug 1116419](https
 
 I knew that there was a function somewhere in the code to generate the link, and I guessed that the string 'bugzilla.mozilla.org' would show up somewhere in the function, so I tried:
 
-```bash
+```
 grep -R bugzilla.mozilla.org *
 ```
 
@@ -33,4 +33,12 @@ And looking at the results I could identify the right file and from there the ri
 
 #### Auto-tools
 
-I knew auto-tools had some Python projects, and I wanted to get involved. So I searched for a good first bug in Testing and found [bug 1116216](https://bugzilla.mozilla.org/show_bug.cgi?id=1116216). It was a simple change, but it was a reason to learn mercurial basics and download Talos' codebase. Joel Maher (:jmaher) left a comment thanking me and inviting me to work on other projects. I look in the [tracking bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1088251) to see if there was anything else I could do, and I found [bug 1093939](https://bugzilla.mozilla.org/show_bug.cgi?id=1093939). I ended up a one file report generating script to Talos, and to get there I had to ask a lot of questions in IRC. Since then I started hanging out on the #ateam channel almost every day, and people there are very nice. After that I worked on bug [1119444](https://bugzilla.mozilla.org/show_bug.cgi?id=1119444), [11124720](https://bugzilla.mozilla.org/show_bug.cgi?id=1124720) and [1124689](https://bugzilla.mozilla.org/show_bug.cgi?id=1124689), besides filing and fixing [bug 1122092](https://bugzilla.mozilla.org/show_bug.cgi?id=1122092).
+I learned in bugs ahoy that auto-tools had some Python projects, and I wanted to get involved. So I searched for a good first bug in Testing and found [bug 1116216](https://bugzilla.mozilla.org/show_bug.cgi?id=1116216). Making the code more robust by accepting arrays as well as strings. It was a simple change, but it was a reason to learn mercurial basics and download Talos' codebase. 
+
+When I submited my patch, Joel Maher (:jmaher) left a comment thanking me and inviting me to work on other projects. This made me really happy, and I went looking for other projects in Auto-tools. I discovered they had a very useful [tracking bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1088251) and I look there to see if there was anything else I could do.
+
+I found [bug 1093939](https://bugzilla.mozilla.org/show_bug.cgi?id=1093939). I ended up a one file report generating script to Talos, and to get there I had to ask a lot of questions in IRC. Since then I started hanging out on the #ateam channel almost every day (I'm adusca), and people there are very nice. 
+
+After my patch landed jmaher told me he had a bug that he though was a good fit for me: [1119444](https://bugzilla.mozilla.org/show_bug.cgi?id=1119444), to solve that I ended up filing and fixing [bug 1122092](https://bugzilla.mozilla.org/show_bug.cgi?id=1122092).
+
+I felt ready to work on a bigger project. After I mentioned that to jmaher he introduced me to Andrew Halberstadt (:ahal) and [test-informant](http://brasstacks.mozilla.com/testreports/daily/latest.informant-report.html). Bugs [11124720](https://bugzilla.mozilla.org/show_bug.cgi?id=1124720) and [1124689](https://bugzilla.mozilla.org/show_bug.cgi?id=1124689).
