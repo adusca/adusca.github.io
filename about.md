@@ -14,4 +14,4 @@ I started this blog to share my experiences at Hacker School.
 
 [alice@explique.me](mailto:alice@explique.me)
 
-[CV](/http://explique.me/cv-english.pdf)
+[CV](/cv-english.pdf)
