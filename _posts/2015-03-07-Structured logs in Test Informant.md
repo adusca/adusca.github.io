@@ -23,7 +23,7 @@ After step 1 was ready, it was time to actually consume structured logs. Turns o
 
 Dealing with database issues was harder. I had to worry about race conditions and also deal with chunking (some test suites are split into several chunks that must be added to the same database entry).
 
-#### Adding more tests
+### Adding more tests
 
 Test-Informant only deals with tests in its [configuration file](https://github.com/mozilla/test-informant/blob/master/informant/config.py). There were a bunch of new tests that had structured logs but weren't in config.py. I wrote the following script to identify pairs of platforms and suites that were compatible with structured logs:
 
