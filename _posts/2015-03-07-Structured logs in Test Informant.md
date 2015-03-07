@@ -30,7 +30,7 @@ Test-Informant only deals with tests in its [configuration file](https://github.
 {% highlight python%}
 def print_name(self, data):
      structured_logs = [(fn, url) for fn, url in data['blobber_files'].iteritems() 
-                              if fn.endswith('_raw.log')]
+                        if fn.endswith('_raw.log')]
      if structured_logs and not self.get_suite_name(data['test'], data['platform']):
          print data['platform'], data['test']
 {% endhighlight %}
