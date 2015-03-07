@@ -39,6 +39,6 @@ I left my script running for a couple hours, and after that I added the new plat
 
 #### What happened
 
-[This](http://people.mozilla.org/~ahalberstadt/temp-report.html) is a sample report using structured logs. It has a bunch of new tests, and that is actually a problem. The report links to skipped tests, but now not every test lives on [https://dxr.mozilla.org/mozilla-central/source/](https://dxr.mozilla.org/mozilla-central/source/), so our previous way of figuring out the URL does not work anymore. My changes are merged on the [structured_log branch](https://github.com/mozilla/test-informant/tree/structured_log), and we are waiting for follow-up work from other contributors to merge structured_logs into master.
+[This](http://people.mozilla.org/~ahalberstadt/temp-report.html) is a sample report using structured logs. It has a bunch of new tests, and that is actually a problem. The report links to skipped tests, but now not every test lives on [https://dxr.mozilla.org/mozilla-central/source/](https://dxr.mozilla.org/mozilla-central/source/), so our previous way of figuring out the URL does not work anymore. My work resulted in four [PRs](https://github.com/mozilla/test-informant/pulls?q=is%3Apr+author%3Aadusca+is%3Aclosed) that were merged on the [structured_log branch](https://github.com/mozilla/test-informant/tree/structured_log), and we are waiting for follow-up work from other contributors to merge structured_logs into master.
 
 It was a really rewarding project and I'm excited about seeing it being used!
