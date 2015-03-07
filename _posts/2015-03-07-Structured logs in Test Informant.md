@@ -5,11 +5,11 @@ title: Structured logs in Test Informant
 
 [Test Informant](http://brasstacks.mozilla.com/testreports/daily/latest.informant-report.html) is a test monitoring service for Mozilla. It provides a high level view of what's going on with automated tests.
 
-It currently uses [pulse](https://pulse.mozilla.org/) to listen for the completion of build jobs and then downloads the associated tests.zip file (that can reach 200MB), finds test manifests and parses then. After that it saves the information it founds in a Mongo database.
+It currently uses [pulse](https://pulse.mozilla.org/) to listen for the completion of build jobs and then downloads the associated tests.zip file (that can reach 200MB), finds test manifests and parses them. After that it saves the information it found in a Mongo database.
 
-The problem with that approach is that only a subset of tests is compatible with [manifestparser](http://people.mozilla.org/~wlachance/mozbase-docs/manifestparser.html), and Test Informant only support those.
+The problem with that approach is that only a subset of tests is compatible with [manifestparser](http://people.mozilla.org/~wlachance/mozbase-docs/manifestparser.html), and Test Informant only supports those.
 
-[mozlog.structured](http://people.mozilla.org/~wlachance/mozbase-docs/mozlog_structured.html) provides structured logs as JSON files with information about tests that are easily machine-readable, but can also be interpreted by humans. [Here](http://mozilla-releng-blobs.s3.amazonaws.com/blobs/mozilla-inbound/sha512/f3e38056b2f2f509e7dfed0c4e4a13c0c39a15b1d0b505d6043d1b2a44cd9687c84c6b33dbce05a7eeb11366445977ff1ce3a4e8cc9ad570db432c9c0e41ce4c) is an example. Most of the suites compatible with manifestparser is also compatible with mozlog.structured, and using structured logs we get a lot of new suites. So the goal was to make Test Informant use structured logs instead of parsing manifests.
+[mozlog.structured](http://people.mozilla.org/~wlachance/mozbase-docs/mozlog_structured.html) provides structured logs as JSON files with information about tests that is easily machine-readable, but can also be interpreted by humans. [Here](http://mozilla-releng-blobs.s3.amazonaws.com/blobs/mozilla-inbound/sha512/f3e38056b2f2f509e7dfed0c4e4a13c0c39a15b1d0b505d6043d1b2a44cd9687c84c6b33dbce05a7eeb11366445977ff1ce3a4e8cc9ad570db432c9c0e41ce4c) is an example. Most of the suites compatible with manifestparser are also compatible with mozlog.structured, and so by using structured logs we get a lot of new suites. Therefore, the goal was to make Test Informant use structured logs instead of parsing manifests.
 
 #### Listening for test jobs
 
@@ -21,11 +21,11 @@ The hardest part was making sure my code was working as expected. I had to wait 
 
 After step 1 was ready, it was time to actually consume structured logs. Turns out that it's pretty easy. All I had to do was adapt the example code from [ahal's blog post](http://ahal.ca/blog/2014/consume-structured-test-results/) and that part was done.
 
-Dealing with database issues was harder. I had to worry about race conditions and also deal with chunking (some test suites are split into several chunks, that must be added to the same database entry).
+Dealing with database issues was harder. I had to worry about race conditions and also deal with chunking (some test suites are split into several chunks that must be added to the same database entry).
 
 #### Adding more tests
 
-Test-Informant only deals with tests in its [configuration file](https://github.com/mozilla/test-informant/blob/master/informant/config.py). There were a bunch of new tests that had structured logs but that were not yet. I wrote the following script to identify platforms, suites pairs that were compatible with structured logs:
+Test-Informant only deals with tests in its [configuration file](https://github.com/mozilla/test-informant/blob/master/informant/config.py). There were a bunch of new tests that had structured logs but weren't in config.py. I wrote the following script to identify pairs of platforms and suites that were compatible with structured logs:
 
 {% highlight python%}
 def print_name(self, data):
@@ -39,6 +39,6 @@ I left my script running for a couple hours, and after that I added the new plat
 
 #### What happened
 
-[This](http://people.mozilla.org/~ahalberstadt/temp-report.html) is a sample report using structured logs. It has a bunch of new tests, and that is actually a problem. The report links to skipped tests, but now not every test lives on https://dxr.mozilla.org/mozilla-central/source/ so our previous way of figuring out the URL does not work anymore. My changes are merged on the [structured_log branch](https://github.com/mozilla/test-informant/tree/structured_log), and we are waiting for follow up work from other contributors to merge structured_logs into master.
+[This](http://people.mozilla.org/~ahalberstadt/temp-report.html) is a sample report using structured logs. It has a bunch of new tests, and that is actually a problem. The report links to skipped tests, but now not every test lives on [https://dxr.mozilla.org/mozilla-central/source/](https://dxr.mozilla.org/mozilla-central/source/), so our previous way of figuring out the URL does not work anymore. My changes are merged on the [structured_log branch](https://github.com/mozilla/test-informant/tree/structured_log), and we are waiting for follow-up work from other contributors to merge structured_logs into master.
 
 It was a really rewarding project and I'm excited about seeing it being used!
