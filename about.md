@@ -14,4 +14,4 @@ I started this blog to share my experiences at Hacker School.
 
 [alice@explique.me](mailto:alice@explique.me)
 
-[CV](/alice_scarpa_resume.pdf)
+[Résumé](/alice_scarpa_resume.pdf)
