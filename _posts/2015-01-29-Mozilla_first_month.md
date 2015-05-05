@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My first month contributing to Mozilla
+tags: [mozilla]
 ---
 
 During Hacker School's winter break, I decided that I was finally ready to do something I've always wanted to do: contribute to Open Source.
