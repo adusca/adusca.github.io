@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Structured logs in Test Informant
+tags: [mozilla]
 ---
 
 [Test Informant](http://brasstacks.mozilla.com/testreports/daily/latest.informant-report.html) is a test monitoring service for Mozilla. It provides a high level view of what's going on with automated tests.
