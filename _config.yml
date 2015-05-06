@@ -12,6 +12,7 @@ description: a blog about my programming journey
 avatar: https://raw.githubusercontent.com/adusca/adusca.github.io/master/images/expliqueme.png
 # Flags below are optional
 #
+excerpt_separator: <!–break–>
 
 # Includes an icon in the footer for each username you enter
 footer-links:
