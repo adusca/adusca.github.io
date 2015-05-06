@@ -3,10 +3,12 @@ layout: post
 title: Adding digits in Python (or Smarter-looking doesn't mean better)
 ---
 
+
 Given a positive integer, compute the sum of its digits. This very simple task ended up taking me in my first journey through Python's internals.
 
 
 The first solution that came to my mind was:
+
 
 {% highlight python %}
 def first_way(n):
