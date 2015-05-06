@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding digits in Python
+title: Adding digits in Python (or smarter-looking doesn't mean better)
 ---
 
 Given a positive integer, compute the sum of its digits. This very simple task ended up taking me in my first journey through Python's internals.
@@ -76,7 +76,7 @@ user	0m32.786s
 sys	0m0.004s
 {% endhighlight %}
 
-Turns out my intuition was right first part, but very wrong about the second.
+Turns out my intuition was right about the first part, but very wrong about the second.
 
 ### Why?
 
@@ -112,7 +112,7 @@ That's faster than first_way!
 
 ### Conclusion
 
-This experience taught me that the smarter looking code is not always better. Right after I wrote first_way I thought it was a stupid solution. Then I came up with second_way and I got ashamed of myself for having written first_way. Reflecting on why one solution was so much better than the other led me here.
+This experience taught me that the smarter-looking code is not always better. Right after I wrote first_way I thought it was a stupid solution. Then I came up with second_way and I got ashamed of myself for having written first_way. Reflecting on why one solution was so much better than the other led me here.
 
 The next time I need to sum the digits of an integer[^6] I will use the first way and be proud of it.
 
@@ -123,5 +123,5 @@ The next time I need to sum the digits of an integer[^6] I will use the first wa
 [^2]: 100,000 was enough to get a stable run time between several different runs.
 [^3]: second_way does d divisions by 10 for a d-digit number, str does $$\frac{d}{9}$$ divisions by $$10^9$$ (32-bits) or $$\frac{d}{18}$$ divisions by $$10^{18}$$ (64-bits) and then d divisions by 10.
 [^4]: For 32-bits machines, n fits in a machine integer when  n < 2,147,483,647. Since 999,999,999 < 2,147,483,647, every 9-digit number fits in a machine integer.
-[^5]: Python uses 2 types of integers: PyInt (when the number is smaller then a machine int) and PyLong. PyInt divisions are essentially one machine instruction, for PyLong divisions there is overhead. Since Python does not automatically convert a PyLong to a PyInt when it fits, **every** division in second_way is a PyLong division. int() forces the conversion.
+[^5]: CPython uses 2 types of integers: PyInt (when the number is smaller then a machine int) and PyLong. PyInt divisions are essentially one machine instruction, for PyLong divisions there is overhead. Since CPython does not automatically convert a PyLong to a PyInt when it fits, **every** division in second_way is a PyLong division. int() forces the conversion.
 [^6]: Okay, I never actually needed to add digits, but if it happens, I'm prepared.
