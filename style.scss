@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 Cargo;
+  font: 18px/1.6 Cargo;
   color: $darkGray;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.5;
   }
 }
   
