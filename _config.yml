@@ -11,8 +11,6 @@ description: a blog about my programming journey
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/adusca/adusca.github.io/master/images/expliqueme.png
 # Flags below are optional
-#
-excerpt_separator: <!–break–>
 
 # Includes an icon in the footer for each username you enter
 footer-links:
