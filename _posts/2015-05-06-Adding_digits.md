@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adding digits in Python (or Smarter-looking doesn't mean better)
+excerpt: Given a positive integer, compute the sum of its digits. This very simple task ended up taking me in my first journey through Python's internals.
 ---
 
 
