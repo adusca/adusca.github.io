@@ -4,7 +4,7 @@ title: Platforms, buildbots and allthethings
 tags: [mozilla]
 ---
 
-When I asked about larger projects to get involved in, Joel (:jmaher) told me about a new tool's suite that's being written in Python: [Mozilla Continuous Integration Tools](https://github.com/armenzg/mozilla_ci_tools). The project maintainer is Armen Zambrano (:armenzg) and talking with him on the #ateam IRC channel I discovered that a big problem they had was the function [associated_build_job()](https://github.com/armenzg/mozilla_ci_tools/blob/ddea68d3446a5eb29175ab29e451bbef18e866c5/mozci/platforms.py#L46) in platforms.py. That ended up sending me in a journey through [buildbot source code](https://hg.mozilla.org/build/braindump/file/961db9340928/buildbot-related/dump_master_json.py). But first, the problem.
+When I asked about larger projects to get involved in, Joel (:jmaher) told me about a new tool suite that's being written in Python: [Mozilla Continuous Integration Tools](https://github.com/armenzg/mozilla_ci_tools). The project maintainer is Armen Zambrano (:armenzg) and talking with him on the #ateam IRC channel I discovered that a big problem they had was the function [associated_build_job()](https://github.com/armenzg/mozilla_ci_tools/blob/ddea68d3446a5eb29175ab29e451bbef18e866c5/mozci/platforms.py#L46) in platforms.py. That ended up sending me in a journey through [buildbot source code](https://hg.mozilla.org/build/braindump/file/961db9340928/buildbot-related/dump_master_json.py). But first, the problem.
 
 #### What should associated_build_job() do?
 
