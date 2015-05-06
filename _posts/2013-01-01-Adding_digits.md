@@ -53,7 +53,7 @@ The second way is harder to read, but it's better, right? Python has to know eve
 
 I decided to experiment calling the 4 functions 100,000 times each [^2] with a 400-digit integer and comparing run times. My theory: there would be no real difference between two functions of the same way, but the second way would be faster then the first. My results:
 
-{% highlight python %}
+{% highlight %}
 ~$ time python adding_digits_first_way.py
 
 real	0m11.837s
