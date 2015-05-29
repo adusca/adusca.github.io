@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Outreachy log
 ---
 ###Week 1:
