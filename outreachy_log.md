@@ -27,3 +27,10 @@ title: Outreachy log
 ####2015-05-29:
 
 * Added [--existing-only flag to alltalos](https://github.com/armenzg/mozilla_ci_tools/pull/228)
+
+### Week 2
+
+#### 2015-06-01:
+
+* Wrote PR for [issue 232](https://github.com/armenzg/mozilla_ci_tools/pull/234)
+* Wrote [tests](https://github.com/armenzg/mozilla_ci_tools/pull/235) for query_jobs_schedule 
