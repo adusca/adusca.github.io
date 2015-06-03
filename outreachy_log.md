@@ -40,3 +40,8 @@ title: Outreachy log
 * Wrote PR to allow reading LDAP credentials from env variables ([issue 237](https://github.com/armenzg/mozilla_ci_tools/pull/238))
 * Filed [bug 1170839](https://bugzilla.mozilla.org/show_bug.cgi?id=1170839) to rest pulse_actions on ash 
 * Wrote tests for query_repositories, query_repo_url and query_repository
+
+#### 2015-06-03:
+
+* Wrote PR to recognize repo names in b2g jobs
+* Wrote PR to allow multiple buildernames in trigger.py
