@@ -34,3 +34,9 @@ title: Outreachy log
 
 * Wrote PR for [issue 232](https://github.com/armenzg/mozilla_ci_tools/pull/234)
 * Wrote [tests](https://github.com/armenzg/mozilla_ci_tools/pull/235) for query_jobs_schedule 
+
+#### 2015-06-02:
+
+* Wrote PR to allow reading LDAP credentials from env variables ([issue 237](https://github.com/armenzg/mozilla_ci_tools/pull/238))
+* Filed [bug 1170839](https://bugzilla.mozilla.org/show_bug.cgi?id=1170839) to rest pulse_actions on ash 
+* Wrote tests for query_repositories, query_repo_url and query_repository
