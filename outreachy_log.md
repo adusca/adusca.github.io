@@ -45,3 +45,9 @@ title: Outreachy log
 
 * Wrote PR to recognize repo names in b2g jobs
 * Wrote PR to allow multiple buildernames in trigger.py
+
+#### 2015-06-04:
+
+* Filed 2 good first bugs for mozci
+* Worked on PR to allow multiple buildernames
+* Wrote PR to fix 'UnboundLocalError' in mozci
