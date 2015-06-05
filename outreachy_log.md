@@ -53,3 +53,7 @@ title: Outreachy log
 * Wrote PR to fix 'UnboundLocalError' in mozci
 * Fixed bugs in pulse_actions
 * Investigated [issue 233](https://github.com/armenzg/mozilla_ci_tools/issues/233)
+
+#### 2015-06-05:
+
+* Investigated python static analysis tools. Tried so far: pylint, pyflakes and pychecker
