@@ -51,3 +51,5 @@ title: Outreachy log
 * Filed 2 good first bugs for mozci
 * Worked on PR to allow multiple buildernames
 * Wrote PR to fix 'UnboundLocalError' in mozci
+* Fixed bugs in pulse_actions
+* Investigated [issue 233](https://github.com/armenzg/mozilla_ci_tools/issues/233)
