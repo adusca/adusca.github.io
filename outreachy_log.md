@@ -5,7 +5,9 @@ title: Outreachy log
 
 ####2015-05-25:
 
+* Meet with Armen
 * Wrote initial implementation of [pulse_actions](https://github.com/adusca/pulse_actions/)
+* Wrote blog post about gproof2dot
 
 ####2015-05-26:
 
@@ -23,6 +25,7 @@ title: Outreachy log
 * Added installing and running guides to pulse_actions' documentation
 * Wrote step-by-step guide of how to add more functionality to pulse_actions
 * Reviewed [PR 226](https://github.com/armenzg/mozilla_ci_tools/pull/226)
+* Wrote blog post about pulse actions
 
 ####2015-05-29:
 
@@ -57,3 +60,6 @@ title: Outreachy log
 #### 2015-06-05:
 
 * Investigated python static analysis tools. Tried so far: pylint, pyflakes and pychecker
+* Went through pycharm's warnings in mozci, fixed relevant (and small) ones
+* Filed 1 good first bug in mozci
+* Wrote blog post about static analysis tools
