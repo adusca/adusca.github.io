@@ -40,6 +40,7 @@ title: Outreachy log
 
 #### 2015-06-02:
 
+* Meet with Armen
 * Wrote PR to allow reading LDAP credentials from env variables ([issue 237](https://github.com/armenzg/mozilla_ci_tools/pull/238))
 * Filed [bug 1170839](https://bugzilla.mozilla.org/show_bug.cgi?id=1170839) to rest pulse_actions on ash 
 * Wrote tests for query_repositories, query_repo_url and query_repository
@@ -63,3 +64,8 @@ title: Outreachy log
 * Went through pycharm's warnings in mozci, fixed relevant (and small) ones
 * Filed 1 good first bug in mozci
 * Wrote blog post about static analysis tools
+
+### Week 3
+
+* Added tests to buildapi, refactored query_job_status
+* Investigated issue 233
