@@ -29,7 +29,7 @@ Neither [Pylint](http://pylint.org/), [Pyflakes](https://launchpad.net/pyflakes)
 
 ekyle suggested that PyCharm might be able to solve this problem, and indeed, [PyCharm code inspection](https://www.jetbrains.com/pycharm/help/code-inspection.html) shows the message I wanted:
 
-> Local variable 'additional' might be referenced before assignment
+    >  Local variable 'additional' might be referenced before assignment
 
 I spent a couple of hours today going through every PyCharm warning in mozci to see if there were any other bugs that it could catch. It didn't find other serious issues (I don't know if that's fortunate or not).
 
