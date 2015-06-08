@@ -67,5 +67,7 @@ title: Outreachy log
 
 ### Week 3
 
+#### 2015-06-08:
+
 * Added tests to buildapi, refactored query_job_status
 * Investigated issue 233
