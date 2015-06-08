@@ -4,7 +4,7 @@ title: UnboundLocalError
 tags: [mozilla]
 ---
 
-Recently we had an ['UnboundLocalError' in mozci](https://pastebin.mozilla.org/8835719). A local variable was being referenced before assignment. Turns out we were only defining the variable in one branch of an 'if' statement. It was very [straightforward](https://github.com/armenzg/mozilla_ci_tools/pull/244/files) to fix. What bothered me was that this is the exact sort of error that would have been caught at compile time in other languages.
+Recently we had an 'UnboundLocalError' in mozci. A local variable was being referenced before assignment. Turns out we were only defining the variable in one branch of an 'if' statement. It was very [straightforward](https://github.com/armenzg/mozilla_ci_tools/pull/244/files) to fix. What bothered me was that this is the exact sort of error that would have been caught at compile time in other languages.
 
 Is there a Python static analysis tool that would have caught this? I wrote a very simple module with the same bug and tried with different tools[^1]:
 
