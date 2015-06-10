@@ -5,7 +5,7 @@ title: Outreachy log
 
 ####2015-05-25:
 
-* Meet with Armen
+* Weekly 1:1 with Armen
 * Wrote initial implementation of [pulse_actions](https://github.com/adusca/pulse_actions/)
 * Wrote blog post about gproof2dot
 
@@ -40,7 +40,7 @@ title: Outreachy log
 
 #### 2015-06-02:
 
-* Meet with Armen
+* Weekly 1:1 with Armen
 * Wrote PR to allow reading LDAP credentials from env variables ([issue 237](https://github.com/armenzg/mozilla_ci_tools/pull/238))
 * Filed [bug 1170839](https://bugzilla.mozilla.org/show_bug.cgi?id=1170839) to rest pulse_actions on ash 
 * Wrote tests for query_repositories, query_repo_url and query_repository
@@ -71,3 +71,14 @@ title: Outreachy log
 
 * Added tests to buildapi, refactored query_job_status
 * Investigated issue 233
+
+#### 2015-06-09:
+
+* Weekly 1:1 with Armen
+* Investigated why sometimes coveralls fails randomly
+
+#### 2015-06-10:
+
+* Had a meeting about taskcluster
+* Fixed random coverage failures and wrote a blog post about it
+* Investigated sending pulse messages
