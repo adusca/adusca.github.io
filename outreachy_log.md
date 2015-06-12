@@ -82,3 +82,13 @@ title: Outreachy log
 * Had a meeting about taskcluster
 * Fixed random coverage failures and wrote a blog post about it
 * Investigated sending pulse messages
+
+#### 2015-06-11:
+
+* Tried to understand mach_commands.py
+
+#### 2015-06-12:
+
+* Had a meeting about pulse_actions
+* Talked with Ryan and Joel about new mozci use cases
+* Made PR to also consider unknown jobs as running jobs in mozci
