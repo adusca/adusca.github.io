@@ -92,3 +92,9 @@ title: Outreachy log
 * Had a meeting about pulse_actions
 * Talked with Ryan and Joel about new mozci use cases
 * Made PR to also consider unknown jobs as running jobs in mozci
+
+### Week 4
+
+#### 2015-06-15:
+
+* Wrote PR to allow triggering every coalesced job with mozci
