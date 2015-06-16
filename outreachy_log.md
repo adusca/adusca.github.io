@@ -98,3 +98,9 @@ title: Outreachy log
 #### 2015-06-15:
 
 * Wrote PR to allow triggering every coalesced job with mozci
+
+#### 2015-06-16:
+
+* Weekly 1:1 with Armen
+* Fixed bugs in yesterday PR
+* Started writing mozci cookbook
