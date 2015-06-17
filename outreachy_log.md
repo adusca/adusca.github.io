@@ -104,3 +104,7 @@ title: Outreachy log
 * Weekly 1:1 with Armen
 * Fixed bugs in yesterday PR
 * Started writing mozci cookbook
+
+#### 2015-06-17:
+
+* Ask Joel about the right behaviour for coalesced mode and wrote a PR for it
