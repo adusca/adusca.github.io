@@ -107,9 +107,17 @@ title: Outreachy log
 
 #### 2015-06-17:
 
-* Ask Joel about the right behaviour for coalesced mode and wrote a PR for it
+* Asked Joel about the right behaviour for coalesced mode and wrote a PR for it
 
 #### 2015-06-18:
 
 * Turned on pulse_actions on the ash branch
 * Sent a message to sheriffs about where to turn it on next
+
+#### 2015-06-19:
+
+* Turned off pulse_actions due to permission issues
+* Made a mozci release
+* Reviewed a new-contributor patch
+* Tried running find_all_by_status on Heroku
+* Investigated mozci memory usage
