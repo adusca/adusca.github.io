@@ -121,3 +121,10 @@ title: Outreachy log
 * Reviewed a new-contributor patch
 * Tried running find_all_by_status on Heroku
 * Investigated mozci memory usage
+
+### Week 5
+
+#### 2015-06-22:
+
+* Mentored debugger
+* Investigated ijson for improving mozci memory usage
