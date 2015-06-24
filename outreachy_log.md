@@ -138,4 +138,4 @@ title: Outreachy log
 
 * Wrote PR for issue 258
 * Wrote PR for issue 213
-
+* Wrote PR for issue 260
