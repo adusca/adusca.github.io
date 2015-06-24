@@ -128,3 +128,14 @@ title: Outreachy log
 
 * Mentored debugger
 * Investigated ijson for improving mozci memory usage
+
+#### 2015-06-23:
+
+* Tried making our ijson usage less hacky
+* Wrote week summary to replace 1:1
+
+#### 2015-06-24:
+
+* Wrote PR for issue 258
+* Wrote PR for issue 213
+
