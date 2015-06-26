@@ -1,24 +1,24 @@
 ---
 title: Outreachy log
 ---
-###Week 1:
+### Week 1:
 
-####2015-05-25:
+#### 2015-05-25:
 
 * Weekly 1:1 with Armen
 * Wrote initial implementation of [pulse_actions](https://github.com/adusca/pulse_actions/)
 * Wrote blog post about gproof2dot
 
-####2015-05-26:
+#### 2015-05-26:
 
 * Made pulse_actions more generic
 
-####2015-05-27:
+#### 2015-05-27:
 
 * Added [direct retrigger feature to mozci](https://github.com/armenzg/mozilla_ci_tools/pull/224)
 * Uploaded pulse_actions to [Pypi](https://pypi.python.org/pypi/pulse-actions)
 
-####2015-05-28:
+#### 2015-05-28:
 
 * Deployed pulse-actions to Heroku
 * Added [papertrail](https://addons-sso.heroku.com/apps/pulse-actions/addons/papertrail?q=worker) to Heroku
@@ -27,7 +27,7 @@ title: Outreachy log
 * Reviewed [PR 226](https://github.com/armenzg/mozilla_ci_tools/pull/226)
 * Wrote blog post about pulse actions
 
-####2015-05-29:
+#### 2015-05-29:
 
 * Added [--existing-only flag to alltalos](https://github.com/armenzg/mozilla_ci_tools/pull/228)
 
@@ -139,3 +139,8 @@ title: Outreachy log
 * Wrote PR for issue 258
 * Wrote PR for issue 213
 * Wrote PR for issue 260
+
+#### 2015-06-25:
+
+* Added basic automatic backfilling to pulse_actions
+* Wrote experimental pulse publisher
