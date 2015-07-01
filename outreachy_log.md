@@ -148,3 +148,21 @@ title: Outreachy log
 #### 2015-06-26:
 
 * Finished experimental pulse publisher
+
+### Week 6
+
+#### 2015-06-29:
+
+* Wrote blog post about changing goals
+* Worked on adding --fill-in mode
+
+#### 2015-06-30:
+
+* Weekly 1:1 with Armen
+* Fought internet problems
+* Worked on details for next week's trip
+* Found PR about unknown jobs that I forgot to submit
+
+#### 2015-07-01:
+
+* Worked on automatic backfilling PR
