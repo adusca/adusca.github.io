@@ -166,3 +166,8 @@ title: Outreachy log
 #### 2015-07-01:
 
 * Worked on automatic backfilling PR
+* Investigated fill-in possibilities
+
+#### 2015-07-02:
+
+* Reviewed Vaibhav's PRs
