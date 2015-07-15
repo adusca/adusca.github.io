@@ -171,3 +171,24 @@ title: Outreachy log
 #### 2015-07-02:
 
 * Reviewed Vaibhav's PRs
+
+#### 2015-07-03:
+
+* Released a new mozci version
+* Pre-trip day off
+
+### Week 7
+
+Toronto!
+
+### Week 8
+
+#### 2015-07-13:
+
+* Post-trip day off
+* Helped Vaibhav get started with pulse actions
+
+#### 2015-07-14:
+
+* Wrote tests for mozillapulse patch (bug 1180897)
+* Read web app tutorials
