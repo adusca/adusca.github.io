@@ -209,3 +209,6 @@ Toronto!
 
 * Finished fixing tests for mozillapulse PR
 * mozci coordination meeting
+* released a new mozci version
+* conviced a erahm to try mozci, he found a bug. Fixed his bug and released a new mozci version
+* Reviewed Vaibhav's mozci PR
