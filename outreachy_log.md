@@ -192,3 +192,20 @@ Toronto!
 
 * Wrote tests for mozillapulse patch (bug 1180897)
 * Read web app tutorials
+
+#### 2015-07-15:
+
+* Wrote json-to-html-checkbox part of try_extender
+
+#### 2015-07-16:
+
+* Wrote a function to generate a graph per revision for try_extender
+* Worked on fixing tests for mozillapulse patch
+* Finished ActiveData PR for mozci
+* Reviewed Vaibhav's PR
+* Filed an issue for Ryan's feature request
+
+#### 2015-07-17:
+
+* Finished fixing tests for mozillapulse PR
+* mozci coordination meeting
