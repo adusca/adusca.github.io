@@ -212,3 +212,23 @@ Toronto!
 * released a new mozci version
 * conviced a erahm to try mozci, he found a bug. Fixed his bug and released a new mozci version
 * Reviewed Vaibhav's mozci PR
+
+### Week 9
+
+#### 2015-07-20:
+
+* Added sliding menus to try-extender
+* Worked on ijson PR for mozci
+
+#### 2015-07-21:
+
+* Worked on ijson PR for mozci
+* Released a new mozci version
+* Modified pulse_actions to use ijson
+* Installed a C library on Heroku
+* Weekly 1:1 with Armen
+* Meeting about memory usage in mozci
+
+#### 2015-07-22:
+
+* Studied automatic backfilling logs
