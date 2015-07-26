@@ -232,3 +232,13 @@ Toronto!
 #### 2015-07-22:
 
 * Studied automatic backfilling logs
+* Wrote PR for issue 299
+
+#### 2015-07-23:
+
+* Talked with Vaibhav about his PR
+* Worked on adding a Flask backend to try-extender
+
+#### 2015-07-24:
+
+* Manage to get try-extender to run locally
