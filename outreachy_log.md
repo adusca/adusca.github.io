@@ -250,3 +250,10 @@ Toronto!
 * Presented try-extender demo on ateam meeting
 * Added Persona login to try-extender
 * Deployed 2 workers on Heroku
+
+#### 2015-07-28:
+
+* Weekly 1:1 with Armen
+* Taught Vaibhav how to do a release
+* Turned automatic backfilling on
+* Reviewed Vaibhav PRs
