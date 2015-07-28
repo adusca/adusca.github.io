@@ -241,4 +241,12 @@ Toronto!
 
 #### 2015-07-24:
 
-* Manage to get try-extender to run locally
+* Managed to get try-extender to run locally
+
+### Week 10
+
+#### 2015-07-27:
+
+* Presented try-extender demo on ateam meeting
+* Added Persona login to try-extender
+* Deployed Vaibhav's PR to Heroku
