@@ -249,4 +249,4 @@ Toronto!
 
 * Presented try-extender demo on ateam meeting
 * Added Persona login to try-extender
-* Deployed Vaibhav's PR to Heroku
+* Deployed 2 workers on Heroku
