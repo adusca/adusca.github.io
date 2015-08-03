@@ -257,3 +257,21 @@ Toronto!
 * Taught Vaibhav how to do a release
 * Turned automatic backfilling on
 * Reviewed Vaibhav PRs
+
+#### 2015-07-29:
+
+* Modified try-extender to use guincorn
+
+#### 2015-07-30:
+
+* Deployed try-extender to Heroku
+* pulse-actions Heroku work
+
+#### 2015-07-31:
+
+* Added error messages to try-extender
+* Made try-extender prettier
+
+### Week 11
+
+#### 2015-08-03:
