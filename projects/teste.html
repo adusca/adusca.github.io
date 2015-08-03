@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Oranges per day</title>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<script>
+    var square_size = 20;
+
+    //  Use ISO 8601 date formatting
+    var date_format = d3.time.format("%Y-%m-%d");
+
+    // Convert from numerical values to a color scale
+    var color = d3.scale.quantize()
+        .domain([0, 600])
+        .range(d3.range(8).map(function(d) { return "L" + d; }));
+
+    var svg = d3.select("body").selectAll("svg")
+        .data(d3.range(2015, 2016))
+        .enter().append("svg")
+        .attr("width", 2000)
+        .attr("class", "Orange");
+
+    // Creating and positioning days
+    var rect = svg.selectAll(".day")
+        .data(function(d) { return d3.time.days(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+        .enter().append("rect")
+        .attr("class", "day")
+        .attr("width", square_size)
+        .attr("height", square_size)
+    // A day x position corresponds to the week to which it belongs
+        .attr("x", function(d) { return d3.time.weekOfYear(d) * square_size; })
+    // A day y position corresponds to the week to its day of the week
+        .attr("y", function(d) { return d.getDay() * square_size; })
+        .datum(date_format);
+
+    // Show day and orange count on mouse hover
+    rect.append("title").text(function(d) { return d; });
+
+    // Load csv
+    d3.csv("oranges_per_day2.csv", function(csv) {
+        var data = d3.nest()
+            .key(function(d) { return d.date; })
+            .rollup(function(d) { return d[0].count; })
+            .map(csv);
+
+        rect.filter(function(d) { return d in data; })
+            .attr("class", function(d) { return "day " + color(data[d]);})
+            .select("title")
+            .text(function(d) { return d + ": " + data[d]; });
+    });
+
+</script>
+</body>
+</html>

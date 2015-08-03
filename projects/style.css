@@ -1,0 +1,38 @@
+body {
+    /* Making images less blurry */
+    shape-rendering: crispEdges;
+ }
+
+.day {
+    /* Starting with blank days */
+    fill: #fff;
+    stroke: #fff;
+}
+
+/* Oranges */
+.Orange .L0{fill: #ffe6cc}
+.Orange .L1{fill: #ffdab2}
+.Orange .L2{fill: #ffce99}
+.Orange .L3{fill: #ffc27f}
+.Orange .L4{fill: #ffa94c}
+.Orange .L5{fill: #ff9d32}
+.Orange .L6{fill: #ff9119}
+.Orange .L7{fill: #ff8500}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
