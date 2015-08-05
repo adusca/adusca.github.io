@@ -275,3 +275,18 @@ Toronto!
 ### Week 11
 
 #### 2015-08-03:
+
+* Worked on failed_jobs PR
+* Reviewed Vaibhav's PR
+* Deployed changes to Heroku
+* Fixed authentication on try-extender
+
+#### 2015-08-04:
+
+* Wrote try-extender landing page
+
+#### 2015-08-05:
+
+* Fixed allthethings.json x try-extender bug
+* Turned on automatic backfilling
+* Monitored automatic backfilling
