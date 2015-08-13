@@ -290,3 +290,22 @@ Toronto!
 * Fixed allthethings.json x try-extender bug
 * Turned on automatic backfilling
 * Monitored automatic backfilling
+
+#### 2015-08-06:
+
+* Investigated Heroku timeouts
+* Made triggering work in the backgroung for try-extender
+
+#### 2015-08-07:
+
+* Investigated missing Buildapi revisions
+* Wrote PR for using pushlog to validate revisions
+* Fixed try-extender to only show each job once
+
+### Week 12
+
+#### 2015-08-10:
+
+* Wrote blog post about try extender
+* Reviewed Vaibhav's PR and proposed new solution
+* Wrote PR for upstream-to-downstream function in mozci
