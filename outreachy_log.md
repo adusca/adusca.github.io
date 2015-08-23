@@ -309,3 +309,64 @@ Toronto!
 * Wrote blog post about try extender
 * Reviewed Vaibhav's PR and proposed new solution
 * Wrote PR for upstream-to-downstream function in mozci
+
+#### 2015-08-11:
+
+* Weekly 1:1 with Armen
+* Changed missing jobs logic on TE
+* Prepared presentation
+
+#### 2015-08-12:
+
+* Prepared presentation
+* Added message about delay on TE
+
+#### 2015-08-13:
+
+* Retrigger failed job on the same push
+* Presentation day
+
+#### 2015-08-14:
+
+* Submitted PR to fix tests
+* Finished PR for using pushlog to validate revisions
+* Started investigating TH jobs UI
+* Mozci meeting
+
+### Week 13
+
+#### 2015-08-17:
+
+* Fixed small mozci issues
+* Filed a mozci issue
+* Wrote a script to hardcode a json with possible jobs
+* Wrote a hacky prototype TH push extender UI
+
+#### 2015-08-18:
+
+* Weekly 1:1 with Armen
+* SETA meeting
+* Discussed automatic backfilling problems
+* Backed out previous retriggering change
+* Wrote CSS for possible jobs
+
+#### 2015-08-19:
+
+* Made it possible to select jobs on TH
+* Wrote the pulse message sending part
+* Fixed many bugs with the initial implementation
+
+#### 2015-08-20:
+
+* Made possible jobs work with polling/filters
+* TH meeting
+* Made TH consume and process a list of builders instead of a harcoded file
+* Submitted PR
+* Started working on the ETL layer
+* Updated PR
+
+#### 2015-08-21:
+
+* Debugged MySQLdb bug on ETL
+* Finished the API implementation
+* Addressed review comments
