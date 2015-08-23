@@ -7,7 +7,7 @@ title: Outreachy log
 
 * Weekly 1:1 with Armen
 * Wrote initial implementation of [pulse_actions](https://github.com/adusca/pulse_actions/)
-* Wrote blog post about gproof2dot
+* Wrote blog post about gprof2dot
 
 #### 2015-05-26:
 
