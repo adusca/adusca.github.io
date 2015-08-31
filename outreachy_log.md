@@ -370,3 +370,17 @@ Toronto!
 * Debugged MySQLdb bug on ETL
 * Finished the API implementation
 * Addressed review comments
+
+### Week 14
+
+#### 2015-08-24:
+
+* Fixed bugs ahal found on try extender
+* Addressed more review comments
+
+#### 2015-08-25:
+
+* Last weekly 1:1 with Armen
+* Worked on cleaning up the db every day
+* Worked on making it possible to hide possible jobs
+* Last day!
