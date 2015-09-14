@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+#try-treemap {
+  width: 960px;
+  height: 500px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 100%;
+  word-spacing: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+text {
+  pointer-events: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.grandparent text {
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+rect {
+  fill: #F6F4EC;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 1px;
+}
+
+.grandparent rect {
+  fill: #424F5A;
+}
+
+.grandparent:hover rect {
+  fill: #00539F;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+.children:hover rect.child {
+  fill: #F6F4EC;
+}
+
+.parent {
+    fill: #D7D3C8;
+    cursor: pointer;
+}
+
+.parent:hover {
+    fill: #F6F4EC;
+    cursor: pointer;
+    color: white;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+#stackedbar {
+  width: 1200x;
+  height: 500px;
+  stroke-width: 0.2px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
