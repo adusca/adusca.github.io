@@ -36,4 +36,4 @@ have an infinite representation in base 2, which means they don't
 really fit in a float.
 
 
-[^1] a, b non-negative integers
+[^1]: a, b non-negative integers
