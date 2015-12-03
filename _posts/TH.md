@@ -20,7 +20,7 @@ For every push, Treeherder makes a request to its API to obtain a
 JSON object with every job for that push and their respective
 symbols, status, types, platforms and whatever else is needed to
 correctly display them. Every single one of these jobs has an id and
-is in a row in Treeherder's job database.
+it's in a row in Treeherder's job database.
 
 Buildbot jobs enter TH's job database as part of the
 [ETL layer](https://github.com/mozilla/treeherder/tree/master/treeherder/etl).
