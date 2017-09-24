@@ -14,4 +14,4 @@ I started this blog to share my experiences at the Recurse Center, then it becam
 
 [alicescarpa@gmail.com](mailto:alicescarpa@gmail.com)
 
-[Résumé](/cv_english.pdf)
+[Résumé](/cv-english.pdf)
