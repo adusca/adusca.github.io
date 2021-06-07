@@ -5,8 +5,8 @@ tags: [mozilla]
 ---
 
 Are you tired of having to do a new try push just because you forgot a
-test? Your problems are over! Meet [Try
-Extender](http://try-extender.herokuapp.com/). This new web app allows
+test? Your problems are over! Meet Try
+Extender. This new web app allows
 you to add new jobs to existing try pushes, all you have to do is log
 in, choose a revision and pick the jobs you want!
 
